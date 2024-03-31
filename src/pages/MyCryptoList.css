@@ -1,0 +1,25 @@
+/* MyCryptoList.css */
+
+.name {
+    width: 24.5%; 
+  }
+  
+  .price {
+    width: 24%;
+  }
+  
+  .units {
+    width: 24%; 
+  }
+  
+  .total {
+    width: 20%; 
+  }
+  
+  ion-input {
+    width: 100%;
+  }
+  
+  ion-button {
+    margin-top: 10px; 
+  }
