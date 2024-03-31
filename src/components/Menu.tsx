@@ -13,10 +13,10 @@ const Menu: React.FC = () => {
 
     const handleLogout = () => {
         localStorage.clear();
-        setShowToast(true); // Show the toast message
+        setShowToast(true); 
         setTimeout(() => {
-            history.push('/login'); // Redirect after a short delay
-        }, 2000); // Wait for 2 seconds
+            history.push('/login'); 
+        }, 2000); 
     };
     
     return (

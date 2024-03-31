@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IonContent, IonMenuButton, IonHeader, IonPage, IonTitle, IonToolbar, IonInput, IonButton } from '@ionic/react';
-import { signInUser } from '../firebaseconfig'; // Import the authentication function
-import { Link } from 'react-router-dom'; // Import Link component for navigation
+import { signInUser } from '../firebaseconfig';
+import { Link } from 'react-router-dom'; 
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
